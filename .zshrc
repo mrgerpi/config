@@ -103,5 +103,6 @@ alias RickVm="ssh root@10.179.87.15"
 alias xiaoju="ssh xiaoju@10.179.87.15"	#RickVm
 alias ShitVm="ssh Shit@120.79.247.113"
 alias WangChaoVm="ssh xiaoju@10.96.82.244"
+alias lla="ll -a"
 
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
