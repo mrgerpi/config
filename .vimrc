@@ -26,3 +26,6 @@ map <Leader>wq :wq<CR>
 map <Leader>q :q<CR>
 map <Space>f <C-z>
 map <c-a> ggVG
+
+map < <C-w><
+map > <C-w>>
