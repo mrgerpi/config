@@ -23,3 +23,4 @@ PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 alias gosrc="cd code/go/src"
 alias la="ls -a"
+alias lla="ls -l -a"
