@@ -14,13 +14,16 @@ CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 PATH=$PATH:$JAVA_HOME/bin
 
 #set go environment
-GOROOT=/home/Shit/software/go
-GOPATH=/home/Shit/code/go
+GOROOT=/home/Shit/thrift-test/cgi-layer/root
+GOPATH=/home/Shit/thrift-test/cgi-layer/workspace
+GOPATH=/home/Shit/code/go:$GOPATH
 PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 
 # User specific aliases and functions
 
-alias gosrc="cd code/go/src"
+#alias gosrc="cd code/go/src"
 alias la="ls -a"
 alias lla="ls -l -a"
+alias jb="jobs"
+alias getip="curl ip.cip.cc"
